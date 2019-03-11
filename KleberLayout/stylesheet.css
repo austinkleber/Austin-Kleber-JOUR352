@@ -1,0 +1,42 @@
+#content {
+  margin: 0 auto;
+  width: 900px;
+}
+
+#headline {
+  font-family: "helvetica", "futura", sans-serif;
+}
+
+
+blockquote {
+  font-size: 28px;
+  font-family: arial, sans-serif;
+  font-style: italic;
+  color: skyblue;
+  margin: 1 auto;
+  border-top: 3px solid gray;
+  border-bottom: 3px solid gray;
+  padding: 5px;
+}
+
+body {
+  font-family: "Georgia", "times new roman", serif;
+  font: 13px;
+}
+
+#close {
+  font-size: 12px;
+  font-style: italic;
+  font-family: helvetica;
+}
+
+#byline {
+  font-size: 14px;
+  font-style: italic;
+  font-family: helvetica, sans-serif;
+}
+
+
+#block {
+  text-align: center;
+}
