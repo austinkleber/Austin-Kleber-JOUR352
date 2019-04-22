@@ -1,0 +1,52 @@
+#container {
+  margin: 0 auto;
+  width: 900px;
+}
+
+#headline {
+  font-size: 24px;
+  color: black;
+  font-family: arial, sans-serif;
+  text-align: center;
+}
+
+#byline {
+  font-family: arial, sans-serif;
+  font-size: 16px;
+  color: black;
+  text-align: center;
+  font-style: italic;
+}
+
+h2 {
+  font-family: arial, sans-sans-serif;
+  font-size: 18px;
+  color: black;
+  text-align: center;
+  font-style: normal;
+}
+
+
+p {
+  color: black;
+  text-align: left;
+  font-family: arial, sans-serif;
+  font-size: 12px;
+  font-style: normal;
+}
+
+#footer {
+  font-family: arial, sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  text-align: center;
+}
+
+figure {
+  text-align: center;
+  font-style: italic;
+  font-size: 12px;
+  border: 3px solid gray;
+  margin: 0.5em;
+  padding: 0.5em;
+}
