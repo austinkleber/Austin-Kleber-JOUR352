@@ -1,0 +1,136 @@
+#container {
+  margin: 0 auto;
+  width: 900px;
+}
+
+.bg-dark {
+  background: #000 !important;
+}
+
+ul.navbar-nav {
+  margin-left: 50%;
+}
+
+.navbar {
+  font-family: 'montserrat,' sans-serif;
+}
+
+a:hover {
+  background-color: #0052a5;
+}
+
+a:link {
+  background-color: #e0162b;
+}
+
+a:visited {
+  background-color: #999;
+}
+
+#headline {
+  font-size: 3em;
+  font-weight: 700px;
+  color: black;
+  font-family: arial, sans-serif;
+  text-align: center;
+}
+
+#byline {
+  font-family: arial, sans-serif;
+  font-size: 16px;
+  color: black;
+  text-align: center;
+  font-style: italic;
+  padding-top: .5em;
+}
+
+h2 {
+  font-family: arial, sans-sans-serif;
+  font-size: 28px;
+  color: black;
+  text-align: left;
+  font-style: normal;
+}
+
+#intro {
+  font-family: 'montserrat', sans-serif;
+  font-size: 1.25em;
+  max-width: 800px;
+  text-align: center;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+p {
+  color: black;
+  text-align: left;
+  line-height: 180%;
+  font-family: "pt serif", serif;
+  font-size: 1em;
+  font-style: normal;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+.red {
+  color: #e0162b;
+}
+
+.blue {
+  color: #0052a5;
+}
+
+.row {
+
+}
+
+#footer {
+  font-family: 'montserrat', sans-serif;
+  font-size: 18px;
+  background: 100px;
+  color: white;
+  font-style: normal;
+  text-align: center;
+  background-color: black;
+  padding: 25px;
+}
+
+.image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 700px;
+}
+
+.stack-image {
+  width: 100%;
+  max-width: 900px;
+  margin:0 auto;
+  padding-top: 30px;
+}
+
+.caption {
+  color: #999;
+  padding-bottom: 30px;
+  font-family: 'montserrat', sans-serif;
+  margin:0 auto;
+  max-width: 900px;
+  width: 100%;
+}
+
+.graphic-container {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border-top:1px solid #cdcdcd;
+  font-family: 'montserrat', sans-serif;
+  margin:0 auto;
+}
+
+#columns {
+  column-count: 3;
+  column-rule-width: 5px;
+  column-width: auto;
+  padding-left: 150px;
+  padding-right: 150px;
+  padding-bottom: 2em;
+}
