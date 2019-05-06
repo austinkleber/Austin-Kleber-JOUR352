@@ -1,3 +1,10 @@
+
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'PT Serif', serif;
+}
+
 #container {
   margin: 0 auto;
   width: 900px;
@@ -12,64 +19,93 @@ ul.navbar-nav {
 }
 
 .navbar {
-  font-family: 'montserrat,' sans-serif;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+}
+
+.navbar-brand {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.25em;
+  color: white;
 }
 
 a:hover {
   background-color: #0052a5;
 }
 
-a:link {
-  background-color: #e0162b;
-}
 
 a:visited {
   background-color: #999;
 }
 
-#headline {
+.headline {
+  font-family: 'Montserrat', sans-serif;
   font-size: 3em;
-  font-weight: 700px;
+  font-weight: 700;
   color: black;
-  font-family: arial, sans-serif;
   text-align: center;
 }
 
-#byline {
-  font-family: arial, sans-serif;
-  font-size: 16px;
+.subhead {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1em;
+  font-weight: 700;
   color: black;
   text-align: center;
-  font-style: italic;
-  padding-top: .5em;
 }
 
-h2 {
-  font-family: arial, sans-sans-serif;
-  font-size: 28px;
+#stars {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 5px;
+}
+
+.h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2em;
+  font-weight: 700;
+  width: 100%;
   color: black;
   text-align: left;
-  font-style: normal;
+  padding-top: 20px;
 }
 
-#intro {
-  font-family: 'montserrat', sans-serif;
+.intro {
+  font-family: 'Montserrat', sans-serif;
   font-size: 1.25em;
   max-width: 800px;
-  text-align: center;
+  font-weight: 700;
+  text-align: left;
   margin-top: 25px;
   margin-bottom: 25px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-p {
+.p {
   color: black;
   text-align: left;
   line-height: 180%;
   font-family: "pt serif", serif;
   font-size: 1em;
-  font-style: normal;
-  padding-top: 1em;
-  padding-bottom: 1em;
+}
+
+.stack-image {
+  display: block;
+  width: 100%;
+  max-width: 900px;
+  margin:0 auto;
+  padding-top: 30px;
+}
+
+.caption {
+  width: 100%;
+  max-width: 900px;
+  margin:0 auto;
+  padding-bottom: 30px;
+  font-family: 'Montserrat', sans-serif;
+  color: #999;
 }
 
 .red {
@@ -85,7 +121,7 @@ p {
 }
 
 #footer {
-  font-family: 'montserrat', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 18px;
   background: 100px;
   color: white;
@@ -102,27 +138,12 @@ p {
   width: 700px;
 }
 
-.stack-image {
-  width: 100%;
-  max-width: 900px;
-  margin:0 auto;
-  padding-top: 30px;
-}
-
-.caption {
-  color: #999;
-  padding-bottom: 30px;
-  font-family: 'montserrat', sans-serif;
-  margin:0 auto;
-  max-width: 900px;
-  width: 100%;
-}
 
 .graphic-container {
   padding-top: 30px;
   padding-bottom: 30px;
   border-top:1px solid #cdcdcd;
-  font-family: 'montserrat', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   margin:0 auto;
 }
 
